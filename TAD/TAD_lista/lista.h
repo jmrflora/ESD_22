@@ -21,12 +21,18 @@ void listaSetQuantOcupadoMais1(tLista *l);
 void listaSetVetorVazio(tLista *l);
 void listaExibiVet(tLista *l);
 void listaExibi(tLista *l);
+void listaSetVet(tLista *l,int n,int pos);
+void listaEmpurraVet(tLista *l,int posI);
+void listaInclui(tLista *l,int n);
 int listaGetQuantOcupado(tLista *l);
 int listaGetQuantMax(tLista *l);
 int listaGetNumVet(tLista *l,int pos);
 int listaGetClassif(tLista *l);
 int listaGetClassif(tLista *l);
 int listaGetRep(tLista *l);
+int listaExclui(tLista *l,int pos);
+int listaGetVetEmPos(tLista *l,int pos);
+int listaBuscaEl(tLista *l,int el, int *pos);
 /*
 listaIncluiElm();
 listaExcluiElm();
