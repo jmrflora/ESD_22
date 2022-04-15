@@ -24,15 +24,19 @@ void listaExibi(tLista *l);
 void listaSetVet(tLista *l,int n,int pos);
 void listaEmpurraVet(tLista *l,int posI);
 void listaInclui(tLista *l,int n);
+int listaExclui(tLista *l, int el);
+void listaPuxaVet(tLista *l,int posI,int ultimOco);
 int listaGetQuantOcupado(tLista *l);
 int listaGetQuantMax(tLista *l);
 int listaGetNumVet(tLista *l,int pos);
 int listaGetClassif(tLista *l);
 int listaGetClassif(tLista *l);
 int listaGetRep(tLista *l);
-int listaExclui(tLista *l,int pos);
+int listaExclui(tLista *l,int el);
 int listaGetVetEmPos(tLista *l,int pos);
 int listaBuscaEl(tLista *l,int el, int *pos);
+int listaBuscaU(tLista *l, int el, int posI, int *posF);
+
 /*
 listaIncluiElm();
 listaExcluiElm();
